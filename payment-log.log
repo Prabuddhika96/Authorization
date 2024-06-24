@@ -1,0 +1,2 @@
+{"level":"info","message":"Payment processed successfully","service":"payment-logger-service"}
+{"durationMs":1129,"level":"info","message":"Request for /payment completed"}
