@@ -26,10 +26,11 @@ const logger = winston.createLogger({
 // this is how we pass data to the logger
 const requestLog = { method: "GET", isAuthenticated: false };
 
-logger.info("An info log", requestLog);
-logger.error("An error log", requestLog);
-
 // we can create a child logger for that
 const childLogger = logger.child(requestLog);
+
 childLogger.info("An info log from child logger");
-childLogger.error("An error log from child logger");
+childLogger.error(
+  "An error log from child logger",
+  new Error("504 Gateway Error")
+);

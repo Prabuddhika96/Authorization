@@ -64,3 +64,35 @@
   service: 'user-service',
   timestamp: '2024-06-24T12:08:07.714Z'
 }
+{
+  method: 'GET',
+  isAuthenticated: false,
+  message: 'An error log from child logger',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2024-06-24T12:08:45.297Z'
+}
+{
+  method: 'GET',
+  isAuthenticated: false,
+  message: 'An error log from child logger',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2024-06-24T12:08:50.347Z'
+}
+{
+  method: 'GET',
+  isAuthenticated: false,
+  service: 'user-service',
+  level: 'error',
+  message: 'An error log from child logger 504 Gateway Error',
+  stack: 'Error: 504 Gateway Error\n' +
+    '    at Object.<anonymous> (D:\\JSE Projects\\Node Js\\Authorization\\index.js:35:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  timestamp: '2024-06-24T12:09:07.983Z'
+}
