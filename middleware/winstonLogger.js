@@ -1,9 +1,11 @@
 const winston = require("winston");
-const { combine, timestamp, printf, json, prettyPrint } = winston.format;
+const { combine, timestamp, printf, json, prettyPrint, errors } =
+  winston.format;
 
 const logger = winston.createLogger({
   level: "info",
   format: combine(
+    errors({ stack: true }),
     timestamp(),
     // printf((info) => {
     //   return `${info.timestamp} ${info.level}: ${info.message}`;
