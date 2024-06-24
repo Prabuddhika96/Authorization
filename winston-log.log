@@ -1,0 +1,2 @@
+{"isAuthenticated":false,"level":"error","message":"An error log","method":"GET","service":"user-service","timestamp":"2024-06-24T10:31:51.656Z"}
+{"isAuthenticated":false,"level":"error","message":"An error log from child logger","method":"GET","service":"user-service","timestamp":"2024-06-24T10:31:51.657Z"}
