@@ -1,0 +1,6 @@
+{
+  message: 'Order processed failed',
+  level: 'error',
+  service: 'order-logger-service',
+  timestamp: '2024-06-24T12:26:05.716Z'
+}
